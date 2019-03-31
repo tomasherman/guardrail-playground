@@ -9,4 +9,5 @@ object Dependencies {
   lazy val circeGen = "io.circe" % "circe-generic_2.12" % "0.10.0"
   lazy val circeJava8 = "io.circe" % "circe-java8_2.12" % "0.10.0"
   lazy val circeJawn = "io.circe" % "circe-jawn_2.12" % "0.10.0"
+  lazy val http4s =   "org.http4s" %% "http4s-circe" % "0.19.0"
 }

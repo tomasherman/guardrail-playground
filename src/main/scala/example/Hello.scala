@@ -1,10 +1,7 @@
 package example
 
-import petstore.client.pets.CreatePetsResponse
+object Hello extends App {
 
-object Hello extends Greeting with App {
-  
-    println(greeting)
 }
 
 trait Greeting {
