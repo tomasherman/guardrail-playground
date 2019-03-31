@@ -1,9 +1,9 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "title" : "skyring_device-manager_api",
-    "description" : "DeviceManager API for SkyRing",
-    "version" : "0.1.116"
+    "title" : "someapp",
+    "description" : "someapp",
+    "version" : "1"
   },
   "basePath" : "/v1",
   "schemes" : [ "http", "https" ],

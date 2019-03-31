@@ -34,7 +34,7 @@ lazy val root = (project in file("."))
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
 
 guardrailTasks in Compile := List(
-  ScalaClient(file("swagger.yml"), pkg="petstore.client", framework = "http4s"),
-  ScalaServer(file("swagger.yml"), pkg="petstore.server", framework = "http4s"),
-  ScalaModels(file("swagger.yml"), pkg="petstore.model", framework = "http4s"),
+  ScalaClient(file("swagger.json"), pkg="petstore.client", framework = "http4s"),
+  ScalaServer(file("swagger.json"), pkg="petstore.server", framework = "http4s"),
+  ScalaModels(file("swagger.json"), pkg="petstore.model", framework = "http4s"),
 )
